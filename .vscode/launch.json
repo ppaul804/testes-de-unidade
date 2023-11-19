@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculadoraTestes",
+            "request": "launch",
+            "mainClass": "br.com.alura.tdd.CalculadoraTestes",
+            "projectName": "testes-de-unidade"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-Application<testes-de-unidade>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
