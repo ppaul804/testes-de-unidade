@@ -12,4 +12,8 @@ public class Funcionario {
     private String nome;
     private LocalDate dataAdmissao;
     private BigDecimal salario;
+
+    public void reajustarSalario(BigDecimal reajuste) {
+        this.salario = this.salario.add(reajuste);
+    }
 }
